@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(241, 146, 194) , rgb(131, 245, 245));
+
+}
+
+
+#box-pagina-inicial {
+    padding: 40px;
+}
+
+#container {
+    display: flex;
+}
+
+#container main {
+    width: 60%;
+}
+
+#container aside {
+    width: 40%;
+    margin-left: 50px;
+}

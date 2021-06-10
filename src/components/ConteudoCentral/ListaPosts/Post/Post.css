@@ -1,0 +1,60 @@
+.posts {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    background: white;
+    height: 300px;
+    box-shadow: 3px 3px 5px 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.p-img-texto {
+    display: flex;
+    margin-top: 20px;
+}
+
+.p-texto {
+    text-align: justify;
+    width: 60%;
+    margin-left: 20px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.p-texto p {
+    margin-bottom: 10px;
+}
+
+.p-img {
+    width: 40%;
+    overflow: hidden;
+    height: 150px;
+}
+
+.p-img img {
+    margin-left: -400px;
+    margin-top: -520px;
+}
+
+.p-cat-btn {
+    display: flex;
+    margin-top: 15px;
+    position: relative;
+}
+
+.p-categoria {
+
+}
+
+.p-continue-lendo {
+    background: black;
+    padding: 5px 25px;
+    border: none;
+    color: white;
+    position: absolute;
+    right: -21px;
+    bottom: -28px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}

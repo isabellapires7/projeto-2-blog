@@ -1,0 +1,41 @@
+header h1 {
+    margin-bottom: 20px;
+}
+
+#c-titulo-temas {
+    display: flex;
+    justify-content: space-between;
+}
+
+#c-temas > * {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#c-temas > button {
+    padding: 7px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s all;
+}
+#c-temas > button:hover {
+    box-shadow: 0 12px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#c-tema-cinza {
+    background: rgb(182, 180, 180);
+    
+}
+
+#c-tema-rosa {
+    background:rgb(226, 154, 166);
+}
+
+#c-tema-roxo {
+    background: rgb(238, 94, 238);
+}
+
+#c-tema-azul {
+    background: rgb(134, 164, 218);
+}
