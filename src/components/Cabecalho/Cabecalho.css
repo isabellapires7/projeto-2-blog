@@ -1,10 +1,15 @@
 header h1 {
     margin-bottom: 20px;
+    
 }
 
 #c-titulo-temas {
     display: flex;
     justify-content: space-between;
+}
+
+#c-temas p {
+    color: white;
 }
 
 #c-temas > * {
@@ -20,11 +25,11 @@ header h1 {
     transition: 0.5s all;
 }
 #c-temas > button:hover {
-    box-shadow: 0 12px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 12px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(252, 252, 252, 0.19);
 }
 
-#c-tema-cinza {
-    background: rgb(182, 180, 180);
+#c-tema-branco {
+    background: white;
     
 }
 
@@ -33,7 +38,7 @@ header h1 {
 }
 
 #c-tema-roxo {
-    background: rgb(238, 94, 238);
+    background: rgb(172, 132, 172);
 }
 
 #c-tema-azul {

@@ -5,7 +5,8 @@ import './Rodape.css';
 const Rodape = () => {
     return (
         <footer>
-            Copyright &#169; Infnet
+            Copyright &#169; Isabella Pires
+            
         </footer>
     );
 };

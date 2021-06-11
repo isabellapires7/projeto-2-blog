@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Post.css';
+import TemaContext from '../../../../contexts/TemaContext';
 
 const Post = () => {
+
+    const tema = useContext(TemaContext);
+
     return (
-        <article className="posts">
+        <article className="posts" style={ { backgroundColor: tema.corFundoTema } }>
            <h3 className="p-titulo">Título do Post</h3>
            <p className="p-postado-em">Postado em: 30/05/2021</p>
 

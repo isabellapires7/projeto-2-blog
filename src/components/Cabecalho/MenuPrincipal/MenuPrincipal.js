@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import './MenuPrincipal.css';
+import TemaContext from '../../../contexts/TemaContext';
 
 const MenuPrincipal = () => {
+
+    const tema = useContext(TemaContext);
+
     return(
-        <nav>
+        <nav style={ { backgroundColor: tema.corFundoTema } } >
             <ul>
                 <li>
                     <Link to='/lista-posts' >Post</Link>
