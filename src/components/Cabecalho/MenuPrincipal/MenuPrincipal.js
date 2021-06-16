@@ -11,7 +11,7 @@ const MenuPrincipal = () => {
         <nav style={ { backgroundColor: tema.corFundoTema } } >
             <ul>
                 <li>
-                    <Link to='/lista-posts' >Post</Link>
+                    <Link to='/lista-posts' >Posts</Link>
                 </li>
                 <li>
                     <Link to='/lista-categorias' >Categorias</Link>

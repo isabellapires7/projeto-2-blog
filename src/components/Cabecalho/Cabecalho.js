@@ -1,6 +1,7 @@
 import React from 'react';
 import './Cabecalho.css';
 import MenuPrincipal from './MenuPrincipal/MenuPrincipal';
+import { COR_PADRAO, COR_1, COR_2, COR_3 } from '../../utils/coresTema'
 
 const Cabecalho = ( {funcaoConfigurarTema} ) => {
     return (
@@ -8,32 +9,32 @@ const Cabecalho = ( {funcaoConfigurarTema} ) => {
 
             <div id='c-titulo-temas'>
 
-                <h1>BELLA IN BARCELONA</h1>
+                <h1>BARCELONA</h1>
 
                 <div id='c-temas'>
                     <p>Temas:</p>
 
                     <button 
-                        id='c-tema-rosa'
-                        onClick={ () => { funcaoConfigurarTema( 'rosa' ) } } >
-                            Rosa
+                        id='c-tema-verde'
+                        onClick={ () => { funcaoConfigurarTema( 'COR_1' ) } } >
+                            Verde
                     </button>
 
                     <button 
-                        id='c-tema-roxo'
-                        onClick={ () => { funcaoConfigurarTema( 'roxo' ) } }>
-                            Roxo
+                        id='c-tema-amarelo'
+                        onClick={ () => { funcaoConfigurarTema( 'COR_2' ) } }>
+                            Amarelo
                     </button>
 
                     <button 
-                        id='c-tema-azul'
-                        onClick={ () => { funcaoConfigurarTema( 'azul' ) } }>
-                            Azul
+                        id='c-tema-cinza'
+                        onClick={ () => { funcaoConfigurarTema( 'COR_3' ) } }>
+                            Cinza
                     </button>
 
                     <button 
                         id='c-tema-branco'
-                        onClick={ () => { funcaoConfigurarTema( 'branco' ) } }>
+                        onClick={ () => { funcaoConfigurarTema( 'COR_PADRAO' ) } }>
                             Branco
                     </button>
                 </div>

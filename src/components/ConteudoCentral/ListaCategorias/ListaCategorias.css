@@ -1,0 +1,25 @@
+#lista-categorias {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#lc-titulo-btn-nova-categoria {
+    display: flex;
+    justify-content: space-between;
+}
+
+#lc-btn-nova-categoria {
+    cursor: pointer;
+}
+
+#lc-categorias {
+    padding-left: 40px;
+    margin-top: 20px;
+    min-height: 300px;
+}
+
+.lc-item-btn-remover {
+    margin-left: 10px;
+    cursor: pointer;
+}

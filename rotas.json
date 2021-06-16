@@ -1,0 +1,107 @@
+ROTAS DAS POSTAGENS
+
+    nome: {host}/api/v1/getAllPosts
+    metodo: GET
+    enviar: {
+        idCategoria: 1,
+        dataCriacao: '',
+        titulo: ''
+    }
+    receber: {
+        data: [{
+            id: 1,
+            idCategoria: 2,
+            dataCriacao: '',
+            conteudo: '',
+            titulo: '',
+        }]
+    }
+
+    nome: {host}/api/v1/getPostById/{idPost}
+    metodo: GET
+    enviar: {}
+    receber: {
+        data: {
+            id: 1,
+            idCategoria: 2,
+            dataCriacao: '',
+            conteudo: '',
+            titulo: '',
+        }
+    }
+
+    nome: {host}/api/v1/createPost
+    metodo: POST
+    enviar: {
+        idCategoria: 2,
+        conteudo: '',
+        titulo: '',
+    }
+    receber: {
+        data: {
+            id: 1,
+            dataCriacao: '',
+            idCategoria: 2,
+            dataCriacao: '',
+            conteudo: '',
+            titulo: '',
+        }
+    }
+
+    nome: {host}/api/v1/updatePost/{idPost}
+    metodo: PUT
+    enviar: {
+        idCategoria: 2,
+        conteudo: '',
+        titulo: '',
+    }
+    receber: {
+        data: {
+            id: 1,
+            dataCriacao: '',
+            idCategoria: 2,
+            dataCriacao: '',
+            conteudo: '',
+            titulo: '',
+        }
+    }
+
+    nome: {host}/api/v1/deletePost/{idPost}
+    metodo: DELETE
+    enviar: {}
+    receber: {}
+
+ 
+ROTAS DAS CATEGORIAS
+
+    nome: {host}/api/v1/getCategoryById/{idCategoria}
+    metodo: GET
+    enviar: {}
+    receber: {
+        data: {
+            id: 1,
+            nome: '',
+        }
+    }
+
+    nome: {host}/api/v1/getAllCategory
+    metodo: GET
+    enviar: {}
+    receber: {
+        data: [{
+            id: 1,
+            nome: '',
+        }]
+    }
+
+    nome: {host}/api/v1/createCategory
+    metodo: POST
+    enviar: {
+        nome: ''
+    }
+    receber: {
+        data: {
+            id: 1,
+            nome: ''
+        }
+    }

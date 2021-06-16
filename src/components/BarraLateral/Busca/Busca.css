@@ -1,0 +1,19 @@
+#busca {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#b-campo-busca {
+    padding: 5px 15px;
+    width: 180px;
+}
+
+#b-btn-busca  {
+    padding: 5px 15px;
+    margin-left: 10px;
+}
+
+#b-btn-busca img {
+    width: 10px;
+}

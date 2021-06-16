@@ -2,11 +2,13 @@ import React from 'react';
 
 import './BarraLateral.css';
 
+import Busca from './Busca/Busca';
+
 const BarraLateral = () => {
     return (
         
         <aside>
-            <h1>Barra Lateral</h1>
+            <Busca />
         </aside>
         
     );

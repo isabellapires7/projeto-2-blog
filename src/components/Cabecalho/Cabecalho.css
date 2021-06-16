@@ -1,6 +1,7 @@
 header h1 {
     margin-bottom: 20px;
     
+    
 }
 
 #c-titulo-temas {
@@ -9,7 +10,7 @@ header h1 {
 }
 
 #c-temas p {
-    color: white;
+    color: black;
 }
 
 #c-temas > * {
@@ -33,14 +34,14 @@ header h1 {
     
 }
 
-#c-tema-rosa {
-    background:rgb(226, 154, 166);
+#c-tema-verde {
+    background:rgb(141, 243, 218);
 }
 
-#c-tema-roxo {
-    background: rgb(172, 132, 172);
+#c-tema-amarelo {
+    background: rgb(250, 250, 157);
 }
 
-#c-tema-azul {
-    background: rgb(134, 164, 218);
+#c-tema-cinza {
+    background: rgb(201, 194, 194);
 }
