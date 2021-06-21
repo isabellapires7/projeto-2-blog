@@ -10,7 +10,7 @@ import { COR_PADRAO, COR_1, COR_2, COR_3 } from '../../utils/coresTema';
 
 const PaginaInicial = () => {
 
-    const [tema, setTema] = useState('branco');
+    const [tema, setTema] = useState('amarelo');
 
     const modificarTema = temaSelecionado => {
 
@@ -24,28 +24,28 @@ const PaginaInicial = () => {
 
             case 'COR_2':
                 const _tema2 = {
-                    corFundoTema: 'rgb(250, 250, 157)'
+                    corFundoTema: 'white'
                 };
                 setTema(_tema2);
             break;
 
             case 'COR_3':
                 const _tema3 = {
-                    corFundoTema: 'rgb(201, 194, 194'
+                    corFundoTema: 'rgb(201, 194, 194)'
                 };
                 setTema(_tema3);
             break;
 
             case 'COR_PADRAO':
                 const _tema4 = {
-                    corFundoTema: 'white'
+                    corFundoTema: 'rgb(250, 250, 157)'
                 };
                 setTema(_tema4);
             break;
 
             default:
                 const _tema5 = {
-                    corFundoTema: 'white'
+                    corFundoTema: 'rgb(250, 250, 157)'
                 };
                 setTema(_tema5);
             break;

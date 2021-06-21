@@ -10,8 +10,8 @@ const Busca = () => {
 
             <input 
                 id='b-campo-busca'
-                placeholder='Busque aqui' 
-                title='Busque aqui' 
+                placeholder='Pesquisar' 
+                title='Pesquisa' 
             />
 
             <button id='b-btn-busca'>

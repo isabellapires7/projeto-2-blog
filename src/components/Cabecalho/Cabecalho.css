@@ -1,7 +1,13 @@
 header h1 {
     margin-bottom: 20px;
-    
-    
+    font-size: 100px;
+    color: rgb(250, 250, 157);
+}
+
+#img-sagrada-familia {
+    width: 100px;
+    margin-bottom: 40px;
+    margin-left: 50px;
 }
 
 #c-titulo-temas {
@@ -16,6 +22,7 @@ header h1 {
 #c-temas > * {
     display: inline-block;
     margin-left: 10px;
+    margin-top: 40px;
 }
 
 #c-temas > button {
@@ -26,7 +33,7 @@ header h1 {
     transition: 0.5s all;
 }
 #c-temas > button:hover {
-    box-shadow: 0 12px 12px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(252, 252, 252, 0.19);
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(252, 252, 252, 0.19);
 }
 
 #c-tema-branco {

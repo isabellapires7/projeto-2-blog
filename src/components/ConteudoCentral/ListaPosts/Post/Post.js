@@ -1,8 +1,9 @@
 import React, { useContext } from 'react';
 import './Post.css';
 import TemaContext from '../../../../contexts/TemaContext';
+import { Link } from 'react-router-dom';
 
-const Post = () => {
+const Post = ( { Post} ) => {
 
     const tema = useContext(TemaContext);
 
@@ -38,7 +39,11 @@ const Post = () => {
                         Categoria: cidade
                 </div>
                     
-                <button className="p-continue-lendo">Continue lendo...</button>
+                <Link 
+                to={ '/detalhes-post/${ post.id }' } 
+                className="p-continue-lendo" >
+                    Continue lendo...
+                </Link>
             </div>
            
 

@@ -9,21 +9,17 @@ const Cabecalho = ( {funcaoConfigurarTema} ) => {
 
             <div id='c-titulo-temas'>
 
+                <img id='img-sagrada-familia'  src='./imagens/sagrada-familia.png' />
+
                 <h1>BARCELONA</h1>
 
                 <div id='c-temas'>
                     <p>Temas:</p>
 
                     <button 
-                        id='c-tema-verde'
-                        onClick={ () => { funcaoConfigurarTema( 'COR_1' ) } } >
-                            Verde
-                    </button>
-
-                    <button 
-                        id='c-tema-amarelo'
+                        id='c-tema-branco'
                         onClick={ () => { funcaoConfigurarTema( 'COR_2' ) } }>
-                            Amarelo
+                            Branco
                     </button>
 
                     <button 
@@ -33,9 +29,15 @@ const Cabecalho = ( {funcaoConfigurarTema} ) => {
                     </button>
 
                     <button 
-                        id='c-tema-branco'
+                        id='c-tema-verde'
+                        onClick={ () => { funcaoConfigurarTema( 'COR_1' ) } } >
+                            Verde
+                    </button>
+
+                    <button 
+                        id='c-tema-amarelo'
                         onClick={ () => { funcaoConfigurarTema( 'COR_PADRAO' ) } }>
-                            Branco
+                            amarelo
                     </button>
                 </div>
 

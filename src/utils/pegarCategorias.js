@@ -2,6 +2,7 @@ import React from 'react'
 
 const pegarCategorias = salvarState => {
 
+    //Mock
     const __listaCategorias = [
         {
             'id': 1,
@@ -14,8 +15,17 @@ const pegarCategorias = salvarState => {
         {
             'id': 3,
             'descricao': 'Cultura'
+        },
+        {
+            'id': 4,
+            'descricao': 'Transporte'
         }
     ];
+
+    __listaCategorias.sort( (a,b ) => {
+        return ( a.descricao > b.descricao ) ? 1 : -1;
+    } );
+
     salvarState(__listaCategorias);
 };
 
